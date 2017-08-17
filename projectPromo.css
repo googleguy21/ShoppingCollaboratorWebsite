@@ -1,0 +1,207 @@
+/* The title of this project. */
+.title {
+    color: black;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    border-width: medium;
+    border-color: black;
+    font: sans-serif;
+}
+
+/* The entire body of the website. */
+.body {
+    background-color: lightgray;
+}
+
+/* The div section that incorporates the header. */
+.Header {
+    background-color: lightgray;
+    width: 100%;
+    height: 100%;
+}
+
+/* The background image displayed at the top of the webpage. */
+.image {
+  background-image: url('https://www.cognizant.com/content/dam/Cognizant_Dotcom/images/Agile_software_development_Banner.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 800px;
+  text-align: center; 
+}
+
+
+ 
+/* The black block surrounding the tabs. */
+.nav {
+  background: #000;
+  height: 80px;
+  width: 100%;
+  display: inline-block;
+}
+
+/* The div section incorporating each of the tabs. */
+.container {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    word-spacing: 2.5em;
+}
+
+/* The visual image added below the tabs. */
+.object {
+    text-align: center;
+}
+
+/* The CSS styling for each tab. */
+.link {
+    color: blue;
+    text-decoration: none;
+}
+
+.nav .link {
+  color: white;
+  display: inline-block;
+  height: 80px;
+  line-height: 80px;
+  list-style: none;
+  padding: 0 10px;
+}
+
+/* The CSS styling when you move cursor over each tab. */
+.nav .link:hover {
+	background: blue;
+	cursor: pointer; 
+	transition: background .5s;  
+}
+
+/* This is a brief introduction of the project members. */
+#Introduction {
+    font-size: 25px;
+    font-family: Arial, Garamond, sans-serif;
+    color: black;
+}
+
+h2 {
+    color: darkblue;
+}
+
+#objective {
+    color: black;
+    font-size: 20px;
+    font-family: serif;
+}
+
+#ObjectiveBox {
+    width: 800px;
+    height: 250px;
+    border: 2px solid black;
+    padding: 2px 0px;
+    margin: 5px 0px;
+    text-align: center;
+    align-content: center;
+    background-color: lightgray;
+}
+
+/*
+#RaajeshBackground {
+    display: inline-block;
+    width: 445px;
+    height: 900px;
+    border: 2px solid black;
+    text-align: left;
+    margin: 8px;
+}
+
+#VishnuBackground {
+    display: inline-block;
+    width: 445px;
+    height: 900px;
+    border: 2px solid black;
+    text-align: left;
+    margin: 8px;
+}
+
+#SaiBackground {
+    display: inline-block;
+    width: 445px;
+    height: 900px;
+    border: 2px solid black;
+    text-align: left; 
+    margin: 8px;
+    position: absolute;
+}
+*/
+
+.Background {
+    display: inline-grid;
+    width: 445px;
+    height: 900px;
+    border: 2px solid black;
+    text-align: left;
+    margin: 8px;
+}
+
+img.picture {
+    width: 445px;
+    height: 400px;
+}
+
+.Person {
+    color: darkblue;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Details {
+    display: inline-block;
+    width: 425px;
+    height: 500px;
+    padding: 10px 15px;
+}
+
+
+/* Overview of Raajesh Arunachalam */
+.RaajeshDetails {
+ color: black;
+ font-size: 20px;
+ font-style: italic;
+ text-align: left;
+ display: inline-block;
+}
+
+/* Overview of Vishnu Jagan */
+.VishnuDetails {
+ color: black;
+ font-size: 20px;
+ font-style: italic;
+ text-align: left;
+ display: inline-block;
+}
+
+/* Overview of Saikrishna Yadavalli */
+.SaiDetails {
+ color: black;
+ font-size: 20px;
+ font-style: italic;
+ text-align: left;
+ display: inline-block;
+}
+
+
+.photo {
+    background-image: url('https://www.boxuk.com/-/media/hero-images/software-development.jpg?h=836&w=1254&la=en&hash=3380E433956509B078E9773259C4C47CCC4DE892');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 1000px;
+    text-align: center; 
+}
+
+.copyright {
+    color: gray;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}

@@ -1,0 +1,138 @@
+#Tab1 {
+    color: black;
+    text-align: left;
+    font-size: 20px;
+    text-decoration: none;
+    word-spacing: 0.05em;
+}
+
+#Tab2 {
+    color: black;
+    text-align: left;
+    font-size: 20px;
+    word-spacing: 0.05em;
+}
+
+#Tab3 {
+    color: black;
+    text-align: left;
+    font-size: 20px;
+    text-decoration: none;
+    word-spacing: 0.05em;
+}
+
+/* The CSS styling when you move cursor over each tab. */
+#Tab1:hover {
+	background: lightblue;
+	cursor: pointer; 
+	transition: background .5s;  
+}
+
+/* The CSS styling when you move cursor over each tab. */
+#Tab2:hover {
+	background: lightblue;
+	cursor: pointer; 
+	transition: background .5s;  
+}
+
+/* The CSS styling when you move cursor over each tab. */
+#Tab3:hover {
+	background: lightblue;
+	cursor: pointer; 
+	transition: background .5s;  
+}
+
+.paragraph {
+    font-family: inherit;
+    color: darkblue;
+    font-size: 24px;
+}
+
+.body {
+    background-color: lightgray;
+}
+
+.subBody {  
+  background: black;
+  height: 60px;
+  width: 100%;
+  display: inline-block;
+}
+
+.header {
+    text-align: center;
+    color: blue;
+}
+
+.section {
+    display: inline-grid;
+    width: 445px;
+    height: 900px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 8px;
+}
+
+.Category {
+    text-align: center;
+    color: darkblue;
+}
+
+
+.image {
+    background-image: url('https://cdn2.hubspot.net/hubfs/533526/Blog%20Photos%20-%20Anna/Software%20development%20trends%202017.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 700px;
+    width: 700px;
+    text-align: center; 
+    align-content: center;
+    margin: 50px 80px 50px 0;
+}
+
+.description {
+    text-align: center;
+}
+
+.item {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    text-align: left;
+}
+
+.list {
+    color: black;
+    float: left;
+    margin-right: 20px;
+    line-height: 40px;
+    font-size: 30px;
+    margin-bottom: 50px;
+    font-style: italic;
+    text-align: center;
+    padding: 5px;
+}
+
+.logo {
+    float: right;
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+    text-align: left;
+}
+
+.copyright {
+    color: gray;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/* The black block surrounding the tabs. */
+.nav {
+  background: #000;
+  height: 80px;
+  width: 100%;
+  display: inline-block;
+}
