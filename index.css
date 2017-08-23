@@ -1,12 +1,14 @@
 /* The title of this project. */
 .title {
-    color: black;
+    color: blue;
     text-align: center;
     height: 100%;
     width: 100%;
     border-width: medium;
     border-color: black;
-    font: sans-serif;
+    font-family: inherit;
+    font-size: 40px;
+    margin: 10px 10px;
 }
 
 /* The entire body of the website. */
@@ -14,9 +16,16 @@
     background-color: lightgray;
 }
 
+.subBody {  
+  background: black;
+  height: 60px;
+  width: 100%;
+  display: inline-block;
+}
+
 /* The div section that incorporates the header. */
 .Header {
-    background-color: lightgray;
+    background-color: black;
     width: 100%;
     height: 100%;
 }
@@ -58,6 +67,7 @@
 .link {
     color: blue;
     text-decoration: none;
+    font-family: inherit;
 }
 
 .nav .link {
@@ -79,7 +89,7 @@
 /* This is a brief introduction of the project members. */
 #Introduction {
     font-size: 25px;
-    font-family: Arial, Garamond, sans-serif;
+    font-family: inherit;
     color: black;
 }
 
@@ -90,49 +100,23 @@ h2 {
 #objective {
     color: black;
     font-size: 20px;
-    font-family: serif;
+    font-family: inherit;
+    padding: 10px 10px;
 }
 
 #ObjectiveBox {
-    width: 800px;
-    height: 250px;
+    width: auto;
+    height: auto;
     border: 2px solid black;
-    padding: 2px 0px;
-    margin: 5px 0px;
+    padding: 20px 0px;
+    margin: auto;
+    margin-left: 12px;
+    margin-right: 12px;
+    display: block;
     text-align: center;
     align-content: center;
     background-color: lightgray;
 }
-
-/*
-#RaajeshBackground {
-    display: inline-block;
-    width: 445px;
-    height: 900px;
-    border: 2px solid black;
-    text-align: left;
-    margin: 8px;
-}
-
-#VishnuBackground {
-    display: inline-block;
-    width: 445px;
-    height: 900px;
-    border: 2px solid black;
-    text-align: left;
-    margin: 8px;
-}
-
-#SaiBackground {
-    display: inline-block;
-    width: 445px;
-    height: 900px;
-    border: 2px solid black;
-    text-align: left; 
-    margin: 8px;
-    position: absolute;
-}
-*/
 
 .Background {
     display: inline-grid;
@@ -151,6 +135,7 @@ img.picture {
 .Person {
     color: darkblue;
     font-size: 30px;
+    font-family: inherit;
     text-align: center;
 }
 
@@ -158,7 +143,7 @@ img.picture {
     display: inline-block;
     width: 425px;
     height: 500px;
-    padding: 10px 15px;
+    padding: 10px 20px;
 }
 
 
@@ -202,6 +187,6 @@ img.picture {
 .copyright {
     color: gray;
     font-size: 20px;
-    font-family: sans-serif;
+    font-family: inherit;
     text-align: center;
 }
