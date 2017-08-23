@@ -21,6 +21,7 @@
     color: blue;
     text-decoration: none;
     font-family: inherit;
+    font-size: 30px;
 }
 
 .nav .link {
@@ -129,6 +130,7 @@ img.picture {
     text-align: center;
     margin-bottom: 5px;
     background-color: #BFC9CA;
+    height: 125px;
 }
     
 
@@ -136,6 +138,7 @@ img.picture {
     font-size: 30px;
     text-align: center;
     font-family: inherit;
+    color: #2C4366;
 }
 
 .copyright {

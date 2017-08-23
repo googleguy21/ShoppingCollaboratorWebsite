@@ -7,7 +7,7 @@
     border-width: medium;
     border-color: black;
     font-family: inherit;
-    font-size: 40px;
+    font-size: 65px;
     margin: 10px 10px;
 }
 
@@ -68,6 +68,7 @@
     color: blue;
     text-decoration: none;
     font-family: inherit;
+    font-size: 30px;
 }
 
 .nav .link {
@@ -154,6 +155,7 @@ img.picture {
  font-style: italic;
  text-align: left;
  display: inline-block;
+ padding-right: 5px;
 }
 
 /* Overview of Vishnu Jagan */
@@ -163,6 +165,7 @@ img.picture {
  font-style: italic;
  text-align: left;
  display: inline-block;
+ padding-right: 5px;
 }
 
 /* Overview of Saikrishna Yadavalli */
@@ -172,6 +175,7 @@ img.picture {
  font-style: italic;
  text-align: left;
  display: inline-block;
+ padding-right: 5px;
 }
 
 
