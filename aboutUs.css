@@ -1,19 +1,5 @@
-/* The title of this project. */
-.title {
-    color: blue;
-    text-align: center;
-    height: 100%;
-    width: 100%;
-    border-width: medium;
-    border-color: black;
-    font-family: inherit;
-    font-size: 65px;
-    margin: 10px 10px;
-}
-
-/* The entire body of the website. */
 .body {
-    background-color: lightgray;
+    background-color: lightgrey;
 }
 
 .subBody {  
@@ -24,22 +10,13 @@
 }
 
 /* The div section that incorporates the header. */
-.Header {
-    background-color: black;
-    width: 100%;
-    height: 100%;
+.header {
+    text-align: center;
+    color: blue;
+    font-family: inherit;
+    font-size: 65px;
+    margin: 10px 10px;
 }
-
-/* The background image displayed at the top of the webpage. */
-.image {
-  background-image: url('https://www.cognizant.com/content/dam/Cognizant_Dotcom/images/Agile_software_development_Banner.jpg');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  height: 800px;
-  text-align: center; 
-}
-
 
 /* The black block surrounding the tabs. */
 .nav {
@@ -56,11 +33,6 @@
     font-size: 35px;
 }
 
-/* The visual image added below the tabs. */
-.object {
-    text-align: center;
-}
-
 /* The CSS styling for each tab. */
 .link {
     color: blue;
@@ -71,12 +43,12 @@
 }
 
 .nav .link {
-    color: white;
-    display: inline-block;
-    height: 80px;
-    line-height: 80px;
-    list-style: none;
-    padding: 0px 10px;
+  color: white;
+  display: inline-block;
+  height: 80px;
+  line-height: 80px;
+  list-style: none;
+  padding: 0 10px;
 }
 
 /* The CSS styling when you move cursor over each tab. */
@@ -86,46 +58,74 @@
 	transition: background .5s;  
 }
 
-/* This is a brief introduction of the project members. */
-#Introduction {
-    font-size: 25px;
-    font-family: inherit;
-    color: black;
+#image {
+    text-align: center;
+    display: block;
+    margin: auto;
+    height: 150px;
+    width: 150px;
+    margin-top: 60px;
+    margin-bottom: 80px;
 }
 
-h2 {
-    color: darkblue;
+.Details {
+    display: inline-block;
+    width: 425px;
+    height: 500px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-#objective {
+.RaajeshDetails {
     color: black;
     font-size: 20px;
-    font-family: inherit;
-    padding: 10px 10px;
+    font-style: italic;
+    text-align: left;
+    display: inline-block;
+    padding-right: 30px;
 }
 
-#ObjectiveBox {
-    width: auto;
-    height: auto;
-    border: 2px solid black;
-    padding: 20px 0px;
-    margin: auto;
-    margin-left: 12px;
-    margin-right: 12px;
-    display: block;
-    text-align: center;
-    align-content: center;
-    background-color: lightgray;
+/* Overview of Vishnu Jagan */
+.VishnuDetails {
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+    text-align: left;
+    display: inline-block;
+    padding-right: 30px;
+}
+
+/* Overview of Saikrishna Yadavalli */
+.SaiDetails {
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+    text-align: left;
+    display: inline-block;
+    padding-right: 30px;
+}
+
+img.picture {
+    width: 445px;
+    height: 400px;
 }
 
 .Background {
     display: inline-grid;
     width: 445px;
-    height: 900px;
+    height: 970px;
     border: 2px solid black;
     text-align: left;
     margin: 11px;
-    padding-bottom: 22px;
+    padding-bottom: 40px;
+    background-color: #FEF5E7;
+}
+
+.Category {
+    text-align: center;
+    height: 125px;
+    width: 445px;
+    background-color: #BFC9CA;
 }
 
 .Person {
@@ -147,7 +147,6 @@ img.picture {
     padding-left: 15px;
     padding-right: 15px;
 }
-
 
 /* Overview of Raajesh Arunachalam */
 .RaajeshDetails {
@@ -179,14 +178,21 @@ img.picture {
  padding-right: 5px;
 }
 
+.person {
+    display: inline-grid;
+    width: 445px;
+    height: 1300px;
+    border: 2px solid black;
+    text-align: left;
+    margin: 11px;
+    padding-bottom: 22px;
+}
 
-.photo {
-    background-image: url('https://www.boxuk.com/-/media/hero-images/software-development.jpg?h=836&w=1254&la=en&hash=3380E433956509B078E9773259C4C47CCC4DE892');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    height: 1000px;
-    text-align: center; 
+.Name {
+    font-size: 30px;
+    text-align: center;
+    font-family: inherit;
+    color: #2C4366;
 }
 
 .copyright {
@@ -194,4 +200,12 @@ img.picture {
     font-size: 20px;
     font-family: inherit;
     text-align: center;
+}
+
+/* The black block surrounding the tabs. */
+.nav {
+  background: #000;
+  height: 80px;
+  width: 100%;
+  display: inline-block;
 }
