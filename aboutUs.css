@@ -9,7 +9,6 @@
   display: inline-block;
 }
 
-/* The div section that incorporates the header. */
 .header {
     text-align: center;
     color: blue;
@@ -18,7 +17,6 @@
     margin: 10px 10px;
 }
 
-/* The black block surrounding the tabs. */
 .nav {
   background: #000;
   height: 80px;
@@ -26,14 +24,12 @@
   display: inline-block;
 }
 
-/* The div section incorporating each of the tabs. */
 .container {
     text-align: center;
     color: white;
     font-size: 35px;
 }
 
-/* The CSS styling for each tab. */
 .link {
     color: blue;
     text-decoration: none;
@@ -51,7 +47,6 @@
   padding: 0 10px;
 }
 
-/* The CSS styling when you move cursor over each tab. */
 .nav .link:hover {
 	background: blue;
 	cursor: pointer; 
@@ -202,7 +197,6 @@ img.picture {
     text-align: center;
 }
 
-/* The black block surrounding the tabs. */
 .nav {
   background: #000;
   height: 80px;
