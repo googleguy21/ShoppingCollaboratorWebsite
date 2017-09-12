@@ -4,17 +4,27 @@
 
 .subBody {  
   background: black;
-  height: 120px;
+  height: 250px;
   width: 100%;
   display: inline-block;
 }
 
-.header {
-    text-align: center;
+.title {
     color: blue;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    border-width: medium;
+    border-color: black;
     font-family: inherit;
     font-size: 65px;
-    margin: 10px 10px;
+    margin: -40px 10px;
+}
+
+.applogo {
+    height: 200px;
+    width: 200px;
+    display: inline-grid;
 }
 
 .nav {
@@ -28,6 +38,7 @@
     text-align: center;
     color: white;
     font-size: 35px;
+    height: 80px;
 }
 
 .link {
